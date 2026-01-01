@@ -10,7 +10,7 @@ This program makes sense in two ways:
 There are two ways to enable the taskbar in Wine (without which this program makes no sense):
 
 1. wine explorer /desktop=shell,1920x1080 # not recommended
-2. setting "shell" as default in regedit
+2. setting "shell" as default in regedit (explained as follows)
 
 Go to `HKEY_CURRENT_USER\Software\Wine\Explorer` and set "Desktop" to "shell".
 In `HKEY_CURRENT_USER\Software\Wine\Explorer\Desktops` create a new String "shell" and set it to "1920x1080".

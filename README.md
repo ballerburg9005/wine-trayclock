@@ -28,7 +28,6 @@ As noted, the virtual desktop will not close no matter what you do, unless you g
 ```
 x86_64-w64-mingw32-g++ -mwindows -static-libgcc -static-libstdc++ trayclock.cpp -o trayclock.exe 
 i686-w64-mingw32-g++ -mwindows -static-libgcc -static-libstdc++ trayclock.cpp -o trayclock32.exe
-
 ```
 
 ## Maximum Rice

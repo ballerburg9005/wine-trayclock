@@ -21,6 +21,8 @@ Now start wine like so:
 
 As noted, the virtual desktop will not close no matter what you do, unless you go to Start->Exit desktop. 
 
+Unfortunately it can happen that winecfg resets "Desktop" to "Default", if you select "emulate virtual desktop" there. This will result in the sudden unexpected absence of the taskbar, until you set it to "shell" again in regedit.
+
 ## Compiling
 
 ```

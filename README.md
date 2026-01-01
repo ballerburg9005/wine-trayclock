@@ -13,7 +13,7 @@ There are two ways to enable the taskbar in Wine (without which this program mak
 2. setting "shell" as default in regedit
 
 Go to `HKEY_CURRENT_USER\Software\Wine\Explorer` and set "Desktop" to "shell".
-In `HKEY_CURRENT_USER\Software\Wine\Explorer\Desktops` create a new String "shell" and set it to "1920x1080" or your preferred size.
+In `HKEY_CURRENT_USER\Software\Wine\Explorer\Desktops` create a new String "shell" and set it to "1920x1080".
 
 Now start wine like so:
 

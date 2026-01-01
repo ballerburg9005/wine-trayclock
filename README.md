@@ -1,6 +1,4 @@
-# wine-trayclock
-
-![Image](https://github.com/user-attachments/assets/c6f3c049-c8b7-4757-b23b-52312d0a0a78)
+![Image](https://github.com/user-attachments/assets/ce2b08ae-ae83-406d-b49f-b7a9e435daa9)
 
 ## About
 

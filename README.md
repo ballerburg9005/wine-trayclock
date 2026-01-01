@@ -4,7 +4,7 @@
 
 This program makes sense in two ways:
 
-1. It prevents the virtual desktop from closing, unless you explicitly click Start->Exit desktop
+1. It prevents the virtual desktop from closing, unless you explicitly click Start->Exit desktop or close the window
 2. It displays the time (and also the date if you hover it)
 
 There are two ways to enable the taskbar in Wine (without which this program makes no sense):
@@ -19,7 +19,7 @@ Now start wine like so:
 
 ```wine "C:/trayclock.exe"```
 
-As noted, the virtual desktop will not close no matter what you do, unless you go to Start->Exit desktop. 
+As noted, the virtual desktop will not close no matter what you do, unless you go to Start->Exit desktop or close the window. 
 
 Unfortunately it can happen that winecfg resets "Desktop" to "Default", if you select "emulate virtual desktop" there. This will result in the sudden unexpected absence of the taskbar, until you set it to "shell" again in regedit.
 
